@@ -5,9 +5,6 @@
     <button (click)="search()" type="button">Go</button>
     <button (click)="reset()" type="button">Clear</button>
 </div>
-
-
-
 <div class="card" *ngFor="let movie of movies">
 
     <img src="../../assets/{{movie.movieTitle}}.jpg" alt={{movie.movieTitle}}>
