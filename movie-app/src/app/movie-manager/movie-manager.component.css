@@ -4,7 +4,8 @@
     height: 150px;
     float: left;
     margin-left: 100px;
-    color: #a61e4d;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
    
 }
 
@@ -12,9 +13,11 @@
     width: 25px;
     height: 15px;
     border: 1px solid black;
+
 }
 img {
-    width: 150px;
+   
+    width: 80px;
     height: 150px;
     border-radius: 10px;
     width: auto;
@@ -23,6 +26,7 @@ img {
 .card-content h4 {
     margin-block-start: 0.5em !important;
     margin-block-end: 0.5em !important; 
+    
 }
 
 .card-content {
